@@ -1,0 +1,7 @@
+stages:
+  - date
+
+print_date:
+  stage: date
+  script:
+    - echo "Текущая дата и время $(date)"
